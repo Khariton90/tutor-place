@@ -1,0 +1,16 @@
+$bg-color: #1D2532;
+$bg-color-grey: #293344;
+$btn-gradient: linear-gradient(93deg, #1DD844 1.44%, #CBF62E 126.29%);
+$color-white: #FFF;
+$color-grey: #CECECE;
+
+$screen-xxs: 22.857rem;
+$screen-xs: 35.714rem;
+$screen-sm: 39.286rem;
+$screen-md: 53.751rem;
+$screen-lg: 85.714rem;
+
+@mixin blur-gradient {
+  background: linear-gradient(171deg, rgba(95, 56, 255, 0.25) 25.59%, rgba(255, 14, 222, 0.25) 100.44%);
+  filter: blur(86px);
+}

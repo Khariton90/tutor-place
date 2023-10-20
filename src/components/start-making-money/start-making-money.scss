@@ -1,0 +1,223 @@
+@import "styles/variables";
+
+.start-making-money {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -10%;
+    border-radius: 50%;
+    @include blur-gradient;
+    width: 100%;
+    max-width: 14.81rem;
+    height: 14.81rem;
+    z-index: 0;
+  }
+
+  & .container {
+    padding: 105px 15px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 25rem;
+  }
+
+  & .title {
+    color: $color-white;
+    font-size: 1.56rem;
+    font-weight: 300;
+  }
+
+  & .subtitle {
+    color: $color-grey;
+    text-align: center;
+    line-height: 1.2rem;
+  }
+}
+
+.start-making-money__title {
+  position: relative;
+
+  & .ellipse {
+    display: none;
+  }
+}
+
+.additional-image {
+  display: none;
+}
+
+@media (min-width: $screen-md) {
+  .start-making-money {
+    & .container {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      grid-template-rows: auto 1fr 1fr;
+      max-width: 750px;
+      align-items: flex-start;
+      padding: 11.625rem 1.25rem 3.125;
+    }
+
+    & .start-making-money__man {
+      grid-column: 2/3;
+      grid-row: 1/4;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 50%;
+        background: linear-gradient(171deg, rgba(95, 56, 255, 0.55) 25.59%, rgba(255, 14, 222, 0.55) 100.44%);
+        filter: blur(86px);
+      }
+    }
+
+    & .subtitle {
+      display: flex;
+      align-items: flex-start;
+      text-align: left;
+      font-size: 1.44rem;
+      max-width: 31.25rem;
+      line-height: 120%;
+      padding: 20px 0;
+    }
+  }
+
+  .start-making-money__man {
+    position: relative;
+
+    & .additional-image {
+      display: block;
+      position: absolute;
+    }
+
+    & .swean {
+      max-width: 4.375rem;
+      top: 19.96%;
+      left: 9.58%;
+      z-index: -1;
+      animation: levitation 4s linear 0.2s infinite alternate;
+    }
+
+    & .smile {
+      max-width: 1.625rem;
+      top: 6.954%;
+      left: 20.86%;
+      animation: levitation 7s linear 0.1s infinite alternate;
+    }
+
+    & .light1 {
+      max-width: 1.81rem;
+      right: 11.84%;
+      top: 3.27%s;
+      animation: levitation 6s linear 0.3s infinite alternate;
+    }
+
+    & .light2 {
+      max-width: 1rem;
+      left: -9.4%;
+      bottom: 32%;
+      animation: levitation 3s linear 0.05s infinite alternate;
+    }
+
+    & .money {
+      max-width: 6.25rem;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      z-index: 1;
+      animation: levitation 5s linear 0s infinite alternate;
+    }
+  }
+}
+
+
+@media (min-width: $screen-lg) {
+  .start-making-money {
+    &::after {
+      content: "";
+      position: absolute;
+      left: -5%;
+      top: -30%;
+      border-radius: 50%;
+      @include blur-gradient;
+      max-width: 25.8rem;
+      height: 25.8rem;
+      z-index: 0;
+    }
+
+    & .container {
+      max-width: $screen-lg;
+    }
+
+    & .title {
+      font-size: 4.5rem;
+    }
+  }
+
+  .start-making-money__man {
+    position: relative;
+
+    & .additional-image {
+      display: block;
+      position: absolute;
+    }
+
+    & .swean {
+      max-width: 8.75rem;
+      top: 19.96%;
+      left: 9.58%;
+      z-index: -1;
+      animation: levitation 4s linear 0.2s infinite alternate;
+    }
+
+    & .smile {
+      max-width: 3.31rem;
+      top: 6.954%;
+      left: 20.86%;
+      animation: levitation 7s linear 0.1s infinite alternate;
+    }
+
+    & .light1 {
+      max-width: 3.625rem;
+      right: 11.84%;
+      top: 3.27%s;
+      animation: levitation 6s linear 0.3s infinite alternate;
+    }
+
+    & .light2 {
+      max-width: 2.125rem;
+      left: -9.4%;
+      bottom: 32%;
+      animation: levitation 3s linear 0.05s infinite alternate;
+    }
+
+    & .money {
+      max-width: 12.5rem;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      z-index: 1;
+      animation: levitation 5s linear 0s infinite alternate;
+    }
+  }
+
+  .start-making-money__title {
+    & .ellipse {
+      display: block;
+      max-width: 5.5rem;
+      position: absolute;
+      right: 17.37%;
+      top: -3rem;
+    }
+  }
+}
