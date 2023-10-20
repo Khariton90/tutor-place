@@ -1,6 +1,5 @@
 import { Card } from "types";
 import { CardItem } from "components/card-item/card-item";
-import image from "assets/image32.png";
 import blueEllipse from "assets/ellipse-blue.png";
 import blueViolettEllipse from "assets/Ellipse26-1.png";
 import blueViolettBlurEllipse from "assets/Ellipse25.png";
