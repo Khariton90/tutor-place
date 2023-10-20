@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tutor-place/static/css/main.ca6b1726.css",
+    "main.css": "/tutor-place/static/css/main.3ceab007.css",
     "main.js": "/tutor-place/static/js/main.89c6b204.js",
     "static/js/787.0dc32378.chunk.js": "/tutor-place/static/js/787.0dc32378.chunk.js",
     "static/media/man-320-320.png": "/tutor-place/static/media/man-320-320.e01f1fddb01c9f63fbca.png",
@@ -15,12 +15,12 @@
     "static/media/image122.png": "/tutor-place/static/media/image122.d37ad060a221c7d19309.png",
     "static/media/green-ellipse.png": "/tutor-place/static/media/green-ellipse.ef7e9310de0f217f0b0c.png",
     "index.html": "/tutor-place/index.html",
-    "main.ca6b1726.css.map": "/tutor-place/static/css/main.ca6b1726.css.map",
+    "main.3ceab007.css.map": "/tutor-place/static/css/main.3ceab007.css.map",
     "main.89c6b204.js.map": "/tutor-place/static/js/main.89c6b204.js.map",
     "787.0dc32378.chunk.js.map": "/tutor-place/static/js/787.0dc32378.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca6b1726.css",
+    "static/css/main.3ceab007.css",
     "static/js/main.89c6b204.js"
   ]
 }
