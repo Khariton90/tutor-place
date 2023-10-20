@@ -11,25 +11,22 @@ const cards: Card[] = [
     id: 1,
     image: require("assets/image32.png"),
     description:
-      "Откроешь свой первый криптокошелек и научишься c ним работать",
+      "Откроешь свой первый криптокошелек и научишься с ним работать",
   },
   {
     id: 2,
-    image: require("assets/image122.png"),
-    description:
-      "Откроешь свой первый криптокошелек и научишься c ним работать",
+    image: require("assets/image41.png"),
+    description: "Поймёшь, как выбирать правильные дропы",
   },
   {
     id: 3,
-    image: require("assets/image41.png"),
-    description:
-      "Откроешь свой первый криптокошелек и научишься c ним работать",
+    image: require("assets/image44.png"),
+    description: "Построишь план по быстрому приумножению заработанных средств",
   },
   {
     id: 4,
-    image: image,
-    description:
-      "Откроешь свой первый криптокошелек и научишься c ним работать",
+    image: require("assets/image122.png"),
+    description: "Узнаешь кто такие холдеры и флипперы",
   },
 ];
 
