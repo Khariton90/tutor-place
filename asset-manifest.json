@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca6b1726.css",
-    "main.js": "/static/js/main.f3293c2e.js",
-    "static/js/787.0dc32378.chunk.js": "/static/js/787.0dc32378.chunk.js",
-    "static/media/man-320-320.png": "/static/media/man-320-320.e01f1fddb01c9f63fbca.png",
-    "static/media/man1.png": "/static/media/man1.04829c397c66393752db.png",
-    "static/media/Ellipse25.png": "/static/media/Ellipse25.2f220eed81a309d01d58.png",
-    "static/media/swean.png": "/static/media/swean.73e51ab7c60755ea5a4a.png",
-    "static/media/money.png": "/static/media/money.eadbb9ba3ee201a78405.png",
-    "static/media/Ellipse26-1.png": "/static/media/Ellipse26-1.65b8b73892dcc127c1db.png",
-    "static/media/image32.png": "/static/media/image32.a10beb5c68237ab05760.png",
-    "static/media/image41.png": "/static/media/image41.1e66036301a3809a59cb.png",
-    "static/media/image122.png": "/static/media/image122.d37ad060a221c7d19309.png",
-    "static/media/green-ellipse.png": "/static/media/green-ellipse.ef7e9310de0f217f0b0c.png",
-    "index.html": "/index.html",
-    "main.ca6b1726.css.map": "/static/css/main.ca6b1726.css.map",
-    "main.f3293c2e.js.map": "/static/js/main.f3293c2e.js.map",
-    "787.0dc32378.chunk.js.map": "/static/js/787.0dc32378.chunk.js.map"
+    "main.css": "/tutor-place/static/css/main.ca6b1726.css",
+    "main.js": "/tutor-place/static/js/main.96367af1.js",
+    "static/js/787.0dc32378.chunk.js": "/tutor-place/static/js/787.0dc32378.chunk.js",
+    "static/media/man-320-320.png": "/tutor-place/static/media/man-320-320.e01f1fddb01c9f63fbca.png",
+    "static/media/man1.png": "/tutor-place/static/media/man1.04829c397c66393752db.png",
+    "static/media/Ellipse25.png": "/tutor-place/static/media/Ellipse25.2f220eed81a309d01d58.png",
+    "static/media/swean.png": "/tutor-place/static/media/swean.73e51ab7c60755ea5a4a.png",
+    "static/media/money.png": "/tutor-place/static/media/money.eadbb9ba3ee201a78405.png",
+    "static/media/Ellipse26-1.png": "/tutor-place/static/media/Ellipse26-1.65b8b73892dcc127c1db.png",
+    "static/media/image32.png": "/tutor-place/static/media/image32.a10beb5c68237ab05760.png",
+    "static/media/image41.png": "/tutor-place/static/media/image41.1e66036301a3809a59cb.png",
+    "static/media/image122.png": "/tutor-place/static/media/image122.d37ad060a221c7d19309.png",
+    "static/media/green-ellipse.png": "/tutor-place/static/media/green-ellipse.ef7e9310de0f217f0b0c.png",
+    "index.html": "/tutor-place/index.html",
+    "main.ca6b1726.css.map": "/tutor-place/static/css/main.ca6b1726.css.map",
+    "main.96367af1.js.map": "/tutor-place/static/js/main.96367af1.js.map",
+    "787.0dc32378.chunk.js.map": "/tutor-place/static/js/787.0dc32378.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca6b1726.css",
-    "static/js/main.f3293c2e.js"
+    "static/js/main.96367af1.js"
   ]
 }
